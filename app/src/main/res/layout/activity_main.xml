@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--
+    <ImageView
+        android:id="@+id/imageView2"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/androidparty" />
+
+    <TextView android:text="Happy Birthday Fred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/textView2" />
+
+    <TextView android:text="From Lester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true" />
+    -->
+
+    <ImageView
+        android:id="@+id/panda_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/panda"
+        android:layout_marginBottom="207dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Rakuten Incorporated"
+        android:id="@+id/company_name"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="176dp" />
+
+
+    <TextView
+        android:text="Rakuten Crimson House, 1-14-1 Tamagawa, Setagaya-ku, Tokyo"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textSize="24sp"
+        android:layout_alignTop="@+id/company_name" />
+
+
+
+
+</RelativeLayout>
